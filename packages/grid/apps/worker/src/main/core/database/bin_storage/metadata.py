@@ -1,6 +1,4 @@
-# grid relative
-from .. import BaseModel
-from .. import db
+from main.core.database import BaseModel, db
 
 
 class StorageMetadata(BaseModel):
